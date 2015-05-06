@@ -2,9 +2,6 @@
 import random, pytest, fisha, BigInt
 
 def test_fisha():
-    #\\\...\\\
-    assert msg == text
-
-	
-
-
+    y, yy = fisha.main()
+    
+    assert y == yy
